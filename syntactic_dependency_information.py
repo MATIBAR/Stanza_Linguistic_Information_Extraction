@@ -1,3 +1,6 @@
+'''
+Extracting syntactic dependencies for Italian texts
+'''
 import stanza
 
 nlp = stanza.Pipeline(lang='it', processors='tokenize,mwt,pos,lemma,depparse')

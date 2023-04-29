@@ -1,3 +1,6 @@
+'''
+Extracting syntactic dependencies for sentences with multi word tokens
+'''
 import stanza
 # Commento:per frasi contenenti parole comoposte (es: "dalla")
 nlp = stanza.Pipeline(lang='it', processors='tokenize,mwt')

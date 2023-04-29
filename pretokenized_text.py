@@ -1,3 +1,6 @@
+'''
+Code for pretokenized text
+'''
 import stanza
 
 nlp = stanza.Pipeline(lang='it', processors='tokenize', tokenize_pretokenized=True)

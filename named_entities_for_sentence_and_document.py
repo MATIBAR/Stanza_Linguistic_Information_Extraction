@@ -1,3 +1,6 @@
+'''
+Extracting named entities for Italian
+'''
 import stanza
 
 nlp = stanza.Pipeline(lang='it', processors='tokenize,ner')

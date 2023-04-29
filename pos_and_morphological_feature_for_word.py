@@ -1,3 +1,6 @@
+'''
+Extracting part of speech and morphological features for Italian texts
+'''
 import stanza
 
 nlp = stanza.Pipeline(lang='it', processors='tokenize,mwt,pos')

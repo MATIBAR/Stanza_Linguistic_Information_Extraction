@@ -1,3 +1,7 @@
+'''
+Extracting parent tokens for Italian words
+'''
+
 import stanza
 
 nlp = stanza.Pipeline(lang='it', processors='tokenize,mwt')
